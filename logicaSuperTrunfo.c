@@ -8,20 +8,15 @@
 int main() {
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
-    char codigoCidadeA[20], nomeCidadeA[20], codigoCidadeB, nomeCidadeB;
-    double populacaoA, areaA, populacaoB, areaB;
-    long long pibA, pibB;
-    int pontosTuristicoA, pontosTuristicoB;
+    char codigoCidadeA[15], nomeCidadeA[15];
+    char codigoCidadeB = "B01"; 
+    char nomeCidadeB = "Petropolis";
+    double populacaoA, areaA;
+    double populacaoB=623000, areaB=78.596;
+    long long pibA, pibB=61326;
+    int pontosTuristicoA, pontosTuristicoB=5;
 
     // Definição dos valores de de um carta para haver comparação.
-
-    codigoCidadeB = "B01";
-    nomeCidadeB = "Petropolis";
-    populacaoB = 623000;
-    pibB = 450000000;
-    pontosTuristicoB = 20;
-
-    
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
@@ -57,9 +52,13 @@ int main() {
     if (pibA > pibB){
         printf("A Cidade vencedora é: %s\n", nomeCidadeA);
         printf("O valor do PIB de: %s, é maior que o PIB de: %s\n", nomeCidadeA, nomeCidadeB);
+
+        return 0;
     }else{
         printf("A Cidade vencedora é: %s\n", nomeCidadeB);
         printf("O valor do PIB de: %s, é maior que o PIB de: %s\n", nomeCidadeB, nomeCidadeA);
+
+        return 0;
     }
 
     // Exibição dos Resultados:
