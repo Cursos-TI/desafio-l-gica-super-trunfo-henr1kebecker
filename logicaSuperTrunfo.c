@@ -9,7 +9,7 @@ int main() {
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
     char codigoCidadeA[15], nomeCidadeA[15];
-    char codigoCidadeB = "B01"; 
+    char codigoCidadeB[] = "B01"; 
     char nomeCidadeB = "Petropolis";
     double populacaoA, areaA;
     double populacaoB=623000, areaB=78.596;
