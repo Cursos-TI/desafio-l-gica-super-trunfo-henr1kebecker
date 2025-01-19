@@ -28,10 +28,10 @@ int main() {
     // 
     // (Repita para cada propriedade)
     printf("Digite o codigo da Cidade: Ex: A01, B01.\n");
-    scanf("%s", &codigoCidadeA);
+    scanf("%s", codigoCidadeA);
 
     printf("Digite o nome da cidade:\n Não pode conter espaço no nome.\n Ex: Sao Paulo = Sao-Paulo\n");
-    scanf("%s", &nomeCidadeA);
+    scanf("%s", nomeCidadeA);
 
     printf("Qual é o indice populacional da Cidade?\n");
     scanf("%lf", &populacaoA);
